@@ -1,0 +1,42 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f4f6f9;
+  padding: 2rem;
+}
+
+.dashboard-container h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 2rem;
+}
+
+.dashboard-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.dashboard-buttons button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.dashboard-buttons button.logout {
+  background-color: #dc3545;
+}
+
+.dashboard-buttons button.logout:hover {
+  background-color: #c82333;
+}
