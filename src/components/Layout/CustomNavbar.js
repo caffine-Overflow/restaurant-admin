@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/Images/logo.jpg";
 import "./CustomNavbar.css";
 
-const CustomNavbar = ({ page }) => {
+const CustomNavbar = () => {
   return (
     <Navbar bg="warning" data-bs-theme="dark">
       <Container>
