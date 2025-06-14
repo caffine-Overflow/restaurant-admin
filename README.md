@@ -1,57 +1,53 @@
-# 🍽️ Admin Dashboard for Food Ordering Platform
+# 🍽️ Resto Festo Admin Dasboard
 
-A responsive and easy-to-use React-based Admin Dashboard to manage the restaurant's menu and track customer orders in real time. Integrated with Firebase for authentication and database operations, and Cloudinary for image uploads.
+A sleek, responsive React-based Admin Dashboard designed to manage restaurant menus and monitor customer orders in real-time. Seamlessly integrates with Firebase and Cloudinary for a complete admin experience.
 
----
+## Screenshots
 
-## 📸 Screenshots
+![App Screenshot](https://i.imgur.com/HNWYYVX.png)
+![App Screenshot](https://i.imgur.com/xFdrIFF.png)
+![App Screenshot](https://i.imgur.com/XiHvSd0.png)
+![App Screenshot](https://i.imgur.com/PFtrOLb.png)
+![App Screenshot](https://i.imgur.com/6J5FPhy.png)
+![App Screenshot](https://i.imgur.com/SNePyug.png)
+![App Screenshot](https://i.imgur.com/BxZVDlb.png)
 
-| Dashboard Home | Menu Management | View Orders |
-| -------------- | --------------- | ----------- |
+## Demo
 
-[`assets/images/screenshots`](assets/images/screenshots)
-
----
-
-## 🎥 Demo Video
-
-Check out the full video walkthrough:
-
-📺 **[Demo Video](demo-video-assets/demovideo.mp4)**
-
----
+![Admin Login GIF](https://i.imgur.com/5o4Hrg4.gif)
 
 ## 🚀 Features
 
-### ✅ Admin Dashboard
+### 🔐 Authentication
 
-- Secure login/logout functionality
-- Navigation to key sections: Menu Management, Order View
-- Simple and intuitive layout
+- Secure login & logout (via Firebase Auth)
+
+### 📊 Admin Dashboard
+
+- Intuitive navigation between Dashboard, Menu, and Orders
+- Fully responsive layout
 
 ### 🧾 Menu Management
 
 - Add new dishes with image uploads (via Cloudinary)
-- Categorize dishes (e.g., Starters, Desserts, Fast Food)
-- Edit or delete existing menu items
-- View menu items grouped by category
+- Categorize dishes (Starters, Desserts, etc.)
+- Edit or delete menu items
+- View dishes grouped by category
 
-### 📦 View Orders
+### 📦 Order Management
 
-- Live synchronization of orders using Firebase Firestore
-- Order status updates (Pending, In Progress, Delivered, Cancelled)
-- Delete orders as necessary
-- View breakdown of each order: user, timestamp, total, items
-
----
+- Real-time sync with Firebase Firestore
+- Update order statuses: Pending, In Progress, Delivered, Cancelled
+- Delete orders if necessary
+- Detailed order view: user, timestamp, total, and items
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React.js
-- **Routing**: React Router
-- **Backend/DB**: Firebase Firestore
-- **Authentication**: Firebase Auth
-- **Image Uploads**: Cloudinary
-- **Styling**: CSS
-
----
+| 🔧 Category        | ⚙️ Tech Used       |
+| ------------------ | ------------------ |
+| Frontend           | React.js           |
+| Routing            | React Router       |
+| Backend & Database | Firebase Firestore |
+| Authentication     | Firebase Auth      |
+| Image Uploads      | Cloudinary         |
+| Styling            | CSS                |
